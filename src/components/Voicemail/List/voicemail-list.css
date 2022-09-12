@@ -1,0 +1,12 @@
+.list-content {
+  height: 100%;
+}
+
+.list-title {
+  font-style: normal;
+  font-weight: 860;
+  font-size: 38px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}

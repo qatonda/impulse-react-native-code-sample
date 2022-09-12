@@ -1,0 +1,34 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  padding-top: env(safe-area-inset-top, 30px);
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
+.settings-header {
+  position: absolute;
+  width: 100%;
+  margin-top: 28px;
+}
+
+button {
+  padding: 0;
+  border: none;
+}
+
+global.css * {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+textarea,
+input {
+  user-select: text;
+  -webkit-user-select: text;
+}

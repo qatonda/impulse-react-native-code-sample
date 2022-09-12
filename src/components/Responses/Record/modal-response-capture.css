@@ -1,0 +1,82 @@
+.capture-response-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #007ACC;
+  justify-content: center;
+}
+
+/* Header Container */
+
+.capture-response-header {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* Main Content */
+
+.capture-response-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #007ACC;
+  height: 400px;
+  width: 90%;
+  max-width: 318px;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  overflow: hidden;
+}
+
+.capture-response-input {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 376px) {
+  .capture-response-content {
+    width: 300px;
+    max-height: 380px;
+  }
+}
+
+textarea::placeholder {
+  color: #ffffff80;
+}
+
+/* Footer Container */
+
+/* align this top to bottom of input element */
+.capture-response-actions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.dismiss-button {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+}
+
+.dismiss-button-image {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  background-color: transparent;
+}

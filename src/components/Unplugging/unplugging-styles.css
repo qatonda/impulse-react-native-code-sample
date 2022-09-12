@@ -1,0 +1,42 @@
+.unplugged-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.unplugged-content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 300px;
+}
+
+.unplugged-title {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #FE0000;
+  text-align: center;
+}
+
+.unplugged-icon {
+  font-size: 80px;
+  margin: 0;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.unplugged-description {
+  font-family: 'Avenir Next', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.unplugged-actions {
+  margin: auto;
+  margin-top: 24px;
+}

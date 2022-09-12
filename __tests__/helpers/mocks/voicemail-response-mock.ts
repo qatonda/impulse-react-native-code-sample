@@ -1,0 +1,36 @@
+import { IQuestionType } from '../../../src/models/APIModels';
+
+export const voicemailResponseMock: IQuestionType = {
+  OrderId: null,
+  chosenIndicies: null,
+  createdAt: '2022-06-14T20:56:10.000Z',
+  deletedAt: null,
+  id: '7824062',
+  questionId: '8efd1694-a597-400a-a80e-e762f8c403b6',
+  response: {
+    createdAt: '2022-06-14T20:56:10.000Z',
+    id: '4bddc725-ef2c-442d-89c8-f7b080818e59',
+    medium: {
+      createdAt: '2022-06-14T20:56:10.000Z',
+      id: '3b5a4daf-452c-43dc-9969-b884cc9a1fdc',
+      organizationId: null,
+      type: 'textOnly',
+      updatedAt: '2022-06-14T20:56:11.000Z',
+      uploaded: true,
+      url: 'https://impulse-media-beta.s3.amazonaws.com/media/3b5a4daf-452c-43dc-9969-b884cc9a1fdc',
+    },
+  },
+  mediumId: '3b5a4daf-452c-43dc-9969-b884cc9a1fdc',
+  text: 'testing',
+  updatedAt: '2022-06-14T20:56:10.000Z',
+  responseId: '4bddc725-ef2c-442d-89c8-f7b080818e59',
+  strong: false,
+  vote: 1,
+  voterId: 'david-id',
+  description: '',
+  media: [],
+  isFreeResponse: false,
+  yes_count: 0,
+  no_count: 0,
+  skip_count: 0,
+};

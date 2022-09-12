@@ -1,0 +1,139 @@
+.prize-odds-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}
+
+.user-entries-button,
+.total-entries-button {
+  position: fixed;
+}
+
+.user-entries-button {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #007ACC;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.total-entries-button {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: #FE0000;
+  height: 30px;
+  width: 30px;
+  margin-left: 36px;
+  margin-top: 36px;
+  color: white;
+  border-radius: 15px;
+}
+
+.prize-odds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000080;
+}
+
+.prize-odds-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  background-color: #007ACC;
+}
+
+.user-odds-percentage {
+  font-weight: 700;
+}
+
+.prize-odds-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-entries-button-large,
+.total-entries-button-large {
+  position: fixed;
+}
+
+.user-entries-button-large {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  background-color: #007ACC;
+  height: 120px;
+  width: 120px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  color: white;
+  border-radius: 60px;
+}
+
+.total-entries-button-large {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #FE0000;
+  height: 80px;
+  width: 80px;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: white;
+  border-radius: 40px;
+}
+
+
+/* Header Container */
+
+.prize-odds-header {
+  margin-top: 60px;
+}
+
+.prize-odds-description {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Footer Container */
+.dismiss-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 60px;
+}
+
+.dismiss-button {
+  width: 60px;
+  height: 60px;
+  background: none;
+  border: none;
+}
+
+.dismiss-button-image {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  background-color: transparent;
+}

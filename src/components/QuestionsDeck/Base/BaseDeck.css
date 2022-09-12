@@ -1,0 +1,108 @@
+.questions-deck-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+.questions-deck-content {
+  display: flex;
+  /*
+    we do a column reverse so that we can place elements visibly below the card, that don't show
+    over-top the card when the card is moved over the elements
+
+    an example is the response options: the card should hide the response options when the card is
+    moved over the element, but the response options are declared first in the html document.
+
+    another option is to set the proper z-index values, but we would have to change the z-index
+    values of all of the elements in the app that should be above the card. this is time consuming
+    and not-scalable.
+  */
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: auto;
+  top: 35px;
+  position: relative;
+}
+
+.card-media-container {
+  margin: 0 auto;
+  width: 318px;
+  vertical-align: middle;
+  border-radius: 30px;
+  position: relative;
+}
+
+.card-media {
+  overflow: hidden;
+  /* see constants.ts CARD_RATIO for how this was calculated */
+  /* TODO: make this dynamic (not using css) to CARD_RATIO changes */
+  width: 318px;
+  height: 480px;
+  border-radius: 30px;
+}
+
+@media (max-width: 376px) {
+  .card-media-container {
+    width: 320px;
+  }
+
+  .card-media {
+    width: 320px;
+    height: 440px;
+  }
+}
+
+.card-response-media {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.card-image-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.response-container {
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  overflow: visible;
+}
+
+.response-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-self: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.response-container ul li {
+  margin: 0 20px;
+  overflow: visible;
+}
+
+.wild-card-media {
+  box-sizing: border-box;
+  padding: 6px;
+  height: inherit;
+  background: linear-gradient(to right, #007ACC, #FE0000);
+}
+
+.display-none-content {
+  display: none;
+}
+
+.question-card {
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+import { IQuestionType } from '../../../src/models/APIModels';
+
+export const questionMock: IQuestionType = {
+  LocationId: null,
+  OrderId: '3c99214a-459c-4fe9-80c3-31fea60e6fd9',
+  QuestionMetumId: null,
+  category: null,
+  createdAt: '2019-07-01T20:07:12.000Z',
+  decks: [],
+  description: 'Have you ever been under a waterfall?',
+  expectedMediaCount: 0,
+  feedActive: false,
+  id: '45680618-1363-4880-a900-6ee8bd787920',
+  images: [],
+  isFreeResponse: true,
+  media: [],
+  no_count: 0,
+  organizationId: null,
+  previewMedia: null,
+  previewMediaId: null,
+  profileActive: true,
+  skip_count: 2,
+  type: 'comparative',
+  updatedAt: '2020-05-09T22:06:59.000Z',
+  userId: 'be301506-ac74-47dc-8704-a553b4916cd4',
+  votes: {},
+  yes_count: 2,
+};

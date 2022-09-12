@@ -1,0 +1,14 @@
+.empty-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+}
+
+.empty-list-description {
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  color: dimgray;
+}
